@@ -43,6 +43,12 @@ The challenge can be split into the following two parts:
           configure the SDK to use path-style
           addressing ([reference](https://github.com/adobe/S3Mock?tab=readme-ov-file#path-style-vs-domain-style-access)).
           The S3 instance already has a bucket named `cocrafter-dev` for you to use. See the appendix for an example.
+3. ➕ **Bonus Task**:
+   - You might have noticed that one component in the frontend is still trying to reach the legacy backend under `/api/v1/ping` using the
+same host as the new backend. The legacy backend is provided as a service in the `docker-compose` file. Find a way for the frontend to reach the backend
+whilst **addressing the same host** (and port) as your newly implemented backend.
+    - **Important Note**: As the title suggests, this is a bonus task meaning that you do not have to complete it in order to proceed to next interview stage.
+
 
 ## Tech Stack 📚
 
@@ -72,16 +78,6 @@ Please send the following to `annabell@cocrafter.com`:
 - Tech interview call
     - Discuss your deliverable in detail → explain your solution in depth, answer additional questions..
     - More (general) questions session to test your technical knowledge
-
-## Bonus Task ➕
-
-You might have noticed that one component in the frontend is still
-trying to reach the legacy backend under `/api/v1/ping` using the
-same host as the new backend. The legacy backend is
-provided as a service in the `docker-compose` file. Find a
-way for the frontend to reach the backend
-whilst **addressing the same host** (and port) as your newly implemented
-backend.
 
 ## Appendix
 
