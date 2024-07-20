@@ -147,7 +147,7 @@ Please send the following to `annabell@cocrafter.com`:
 ### Example setup of S3 client (JS SDK v3)
 
 (You will have to use an appropriate endpoint, this is just an example.
-Any credentials should should be accepted by the S3 mock.)
+Any credentials should be accepted by the S3 mock.)
 
 ```typescript
 new S3Client({
