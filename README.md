@@ -82,6 +82,7 @@ Please send the following to `annabell@cocrafter.com`:
 ## Appendix
 
 ### Example return from `GET /folders`
+Please note that the id values are just for demonstration purposes. You may choose your own id generation strategy.
 
 ```json
 {
