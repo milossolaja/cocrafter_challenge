@@ -11,7 +11,7 @@ a file system that allows them to create folders to store files in them. In each
 The challenge can be split into the following two parts:
 
 1. **Provide implementations for the endpoints used in ./frontend/src/api.ts**. For details, e.g., return types, please
-   refer to the code:
+   refer to the code. Please also note, that the ids are just examples. You may choose your own id generation strategy:
     - `GET /api/v2/folders` - Returns the entire folder hierarchy as a tree, including files. Please refer to the
       appendix for an example response.
     - `POST /api/v2/folders/` - Creates a new folder within the folder identified by the parentId parameter provided in
