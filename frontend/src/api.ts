@@ -6,7 +6,6 @@ export async function createFolder(parentId: string): Promise<void> {
       "Content-Type": "application/json"
     }
   });
-
   if (!res.ok) {
     throw new Error("Failed to create folder");
   }
@@ -14,7 +13,6 @@ export async function createFolder(parentId: string): Promise<void> {
 
 export async function getFolders(): Promise<IFolder> {
   const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/v2/folders`);
-
   if (!res.ok) {
     throw new Error("Failed to fetch folders");
   }
