@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-psycopg2
-boto3
-pydantic
-python-multipart

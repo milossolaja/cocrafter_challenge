@@ -20,7 +20,6 @@ from services.document_service import (
 )
 
 from config import S3_CONFIG, BUCKET_NAME
-from routes import folder_routes, document_routes
 
 # Initialize FastAPI application
 app = FastAPI(
